@@ -1,0 +1,11 @@
+.div1 img{
+    position: relative;
+    position: cover;
+    max-width: 100%;
+}
+.div1 p{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    bottom: 50%;
+}
