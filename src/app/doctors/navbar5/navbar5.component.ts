@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar5.component.css']
 })
 export class Navbar5Component {
-  public image="../assets/images (1).png"
+  public image="../assets/Data/back.png"
 
 }

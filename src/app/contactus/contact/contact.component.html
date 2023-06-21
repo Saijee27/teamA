@@ -6,11 +6,11 @@
       <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
         <div class="card-body p-0">
           <div class="row g-0">
-            <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+            <div class="col-sm-6 d-none d-sm-block" style="background-image: url(../assets/Data/nutrient.jpg);width:400px"></div>
             <div class="col-sm-6 p-4">
               <div class="text-center">
                 <div class="h3 fw-light">Contact Form</div>
-                <p class="mb-4 text-muted">Split layout contact form</p>
+        
               </div>
 
               <!-- * * * * * * * * * * * * * *
@@ -43,7 +43,7 @@
                 <!-- Message Input -->
                 <div class="form-floating mb-3">
                   <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-                  <label for="message">Message</label>
+                  <label for="message">appointment</label>
                   <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
                 </div>
 
@@ -63,7 +63,7 @@
 
                 <!-- Submit button -->
                 <div class="d-grid">
-                  <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" >Submit</button>
+                  <a href="appointfeedback" (click)="onclick()"><button class="btn btn-primary btn-lg disabled" id="submitButton" >Submit</button></a>
                 </div>
               </form>
               <!-- End of contact form -->

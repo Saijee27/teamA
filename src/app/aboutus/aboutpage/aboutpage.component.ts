@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AboutpageComponent {
   public images="../assets/Data/healthy.jpg"
-  public image="../assets/images (1).png"
+  public image="../assets/Data/back.png"
   constructor(private routes:Router){}
   onclick()
   {

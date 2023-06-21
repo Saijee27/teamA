@@ -7,5 +7,5 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  public image="../assets/images (1).png"
+  public image="../assets/Data/back.png"
 }

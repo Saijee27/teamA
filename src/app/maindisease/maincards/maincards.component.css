@@ -4,15 +4,16 @@ section .row .col .card{
 section .row .col .card .card-title{
     color:#333;
     font-size:1.5rm;
-    padding-top: 20px;
+    padding-top: 10px;
 
 }
 section .row .col .card .card-title .body button{
     background-color: aliceblue;
     border-radius:5px;
+    width: 100px;
     color:blue;
     font-weight: 600px;
-    padding: 2px 4px;
+    padding: 4px 4px;
     transition: 0.7s;
 }
 section .row .col .card .card-title .body button:hover{

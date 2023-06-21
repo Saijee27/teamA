@@ -10,6 +10,7 @@ import { AboutpageComponent } from './aboutpage/aboutpage.component';
   declarations: [
     AboutnavComponent,
     AboutpageComponent
+
   ],
   imports: [
     CommonModule,

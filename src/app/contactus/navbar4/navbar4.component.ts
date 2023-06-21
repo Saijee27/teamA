@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar4.component.css']
 })
 export class Navbar4Component {
-  public image="../assets/images (1).png"
+  public image="../assets/Data/back.png"
   constructor(private routes:Router){}
   onclick()
   {

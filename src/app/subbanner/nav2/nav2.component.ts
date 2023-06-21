@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav2.component.css']
 })
 export class Nav2Component {
-  public image="../assets/images (1).png"
+  public image="../assets/Data/back.png"
   constructor(private routes:Router){}
   onclick(){
     this.routes.navigateByUrl('doctors')
