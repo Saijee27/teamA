@@ -1,27 +1,57 @@
-<div class="div1">
-    <img [src]="images" alt="">
-    <div class="div2" data-aos="fly-in">
-      <h3>Login</h3>
-      <hr style="width: 300px;">
-      <br>
-      <input type="text" placeholder="Username">
-      <br>
-      <br>
-      <input type="text" placeholder="Email or phonenumber">
-      <br>
-      <br>
-      <input type="password" placeholder="password">
-      <br>
-      <br>
-      <input type="password" name="" id="" placeholder="confirmpassword">
-      <br>
-      <br>
-      <button (click)="onclick1()">Signup</button>
-      <br>
-      <br>
-      <ul>
-        <li>Terms & conditions Read more.. <a href="login" style="text-decoration: none;" (click)="onclick()">Login</a></li>
-      </ul>
-    </div>
+<section data-aos="flip-right">
+  <div class="signup-form">
+      <form action="/examples/actions/confirmation.php" method="post">
+      <h2>Sign Up</h2>
+      <p>Please fill in this form to create an account!</p>
+      <hr>
+          <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              <span class="fa fa-user"></span>
+            </span>                    
+          </div>
+          <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+        </div>
+          </div>
+          <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fa fa-paper-plane"></i>
+            </span>                    
+          </div>
+          <input type="email" class="form-control" name="email" placeholder="Email Address" required="required">
+        </div>
+          </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fa fa-lock"></i>
+            </span>                    
+          </div>
+          <input type="text" class="form-control" name="password" placeholder="Password" required="required">
+        </div>
+          </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fa fa-lock"></i>
+              <i class="fa fa-check"></i>
+            </span>                    
+          </div>
+          <input type="text" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>
+          </div>
+          <div class="form-group">
+        <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+      </div>
+      <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-lg" (click)="onclick1()">Sign Up</button>
+          </div>
+          <div class="text-center">Already have an account? <a routerLink="/login">Login here</a></div>
+      </form>
   </div>
-  
+  </section>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar4',
@@ -7,5 +8,17 @@ import { Component } from '@angular/core';
 })
 export class Navbar4Component {
   public image="../assets/images (1).png"
-
+  constructor(private routes:Router){}
+  onclick()
+  {
+    this.routes.navigateByUrl('aboutus')
+  }
+  onclick1()
+  {
+    this.routes.navigateByUrl('contactus')
+  }
+  onclick2()
+  {
+    this.routes.navigateByUrl('login')
+  }
 }

@@ -12,4 +12,11 @@ export class Nav2Component {
   onclick(){
     this.routes.navigateByUrl('doctors')
   }
+  onclick1(){
+    this.routes.navigateByUrl('aboutus')
+  }
+  onclick2(){
+    this.routes.navigateByUrl('contacttus')
+  }
+  
 }

@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./banner1.component.css']
 })
 export class Banner1Component {
-  public images="../assets/Data/Group 68.png"
+  public images="../assets/Data/healthy.jpg"
   constructor(private routes:Router){
 
   }

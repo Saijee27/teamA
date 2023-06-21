@@ -10,7 +10,13 @@ export class Nav3Component {
   public image="../assets/images (1).png"
   constructor(private routes:Router){}
   onclick(){
-    this.routes.navigateByUrl('search')
+    this.routes.navigateByUrl('doctors')
+  }
+  onclick1(){
+    this.routes.navigateByUrl('aboutus')
+  }
+  onclick2(){
+    this.routes.navigateByUrl('contacttus')
   }
 
 }
