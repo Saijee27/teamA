@@ -13,7 +13,7 @@
     },
     {
         "title":"hair",
-        "src":"../assets/Data/hair.jpeg",
+        "src":"../assets/Data/hair1.jpg",
         "button":"click",
         "category":"hair"
     },
@@ -37,37 +37,37 @@
     },
     {
         "title":"Lungs",
-        "src":"../assets/Data/lungs.jpeg",
+        "src":"../assets/Data/lungs1.jpg",
         "button":"click",
         "category":"lungs"
     },
     {
         "title":"Liver",
-        "src":"../assets/Data/liver.jpeg",
+        "src":"../assets/Data/liver1.jpg",
         "button":"click",
         "category":"liver"
     },
     {
         "title":"kidney",
-        "src":"../assets/Data/kidney.jpeg",
+        "src":"../assets/Data/Human Kidney.jpg",
         "button":"click",
         "category":"kidney"
     },
     {
         "title":"pancreas",
-        "src":"../assets/Data/pancreas.jpeg",
+        "src":"../assets/Data/pancreas1.jpg",
         "button":"click",
         "category":"pancreas"
     },
     {
         "title":"intestine",
-        "src":"../assets/Data/intestine.jpeg",
+        "src":"../assets/Data/intestine1.jpg",
         "button":"click",
         "category":"intestine"
     },
     {
         "title":"bones",
-        "src":"../assets/Data/bones.png",
+        "src":"../assets/Data/bones1.jpg",
         "button":"click",
         "category":"bones"
     }

@@ -50,6 +50,7 @@ import { AppointmentModule } from './appointment/appointment.module';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { AboutusModule } from './aboutus/aboutus.module';
 import { AppointfeedbackComponent } from './appointfeedback/appointfeedback.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -80,7 +81,8 @@ import { AppointfeedbackComponent } from './appointfeedback/appointfeedback.comp
     SpotingdonorComponent,
     AppointmentComponent,
     AboutusComponent,
-    AppointfeedbackComponent
+    AppointfeedbackComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card12',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./card12.component.css']
 })
 export class Card12Component {
-
+  constructor(private routes:Router){}
+  onclick(){
+    this.routes.navigateByUrl('doctors')
+  }
 }

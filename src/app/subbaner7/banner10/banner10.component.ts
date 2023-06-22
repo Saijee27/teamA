@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner10.component.css']
 })
 export class Banner10Component {
-  public images="../assets/Data/liver.jpeg"
+  public images="../assets/Data/liver1.jpg"
 
 }

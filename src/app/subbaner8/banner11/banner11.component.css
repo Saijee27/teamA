@@ -1,7 +1,8 @@
 .div1 img{
     position: relative;
     position: cover;
-    max-width: 100%;
+    width: 100%;
+    height: 100vh;
 }
 .div1 p{
     position: absolute;
